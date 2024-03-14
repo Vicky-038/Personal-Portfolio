@@ -17,4 +17,9 @@ function openmenu(){
 }
 function closemenu(){
   sidemenu.style.right="-200px";
-}                
+}   
+
+var typed = new Typed('#element', {
+  strings: ['Web Developer', 'Programmer'],
+  typeSpeed: 50,
+});
