@@ -13,11 +13,9 @@ body{
   color: #fff;
 }
 #header{
+  margin-top: 15px;
   width: 100%;
   height: 100vh;
-  background-image: url(images/my_photo\ -\ Copy.png);
-  background-size: cover;
-  background-position: center;
 }
 
 .container{
@@ -61,6 +59,31 @@ nav ul li a::after{
 nav ul li a:hover::after{
   width: 100%;
 }
+
+/* .leftSection{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 80px 0;
+} */
+
+.leftSection{
+  font-size: 4rem;
+  font-family: 'poppins';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 160px;
+}
+
+.purple{
+  color: #ff004f;
+}
+#element{
+  color: #ff004f;
+}
+
 
 .header-text{
   margin-top: 20%;
@@ -364,6 +387,10 @@ nav .fas{
   display: none;
 }
 @media only screen and (max-width:600px){
+
+  .leftSection{
+    max-width: 450px;
+  }
   #header{
     background-image: url(images/my_photo.png);
   }
