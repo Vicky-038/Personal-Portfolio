@@ -439,8 +439,9 @@ nav .fas{
     cursor: pointer;
   }
 
+
   .leftSection{
-    font-size:3.5rem;
+    font-size:3.2rem;
   }
   .sub-title{
     font-size: 40px;
@@ -464,4 +465,32 @@ nav .fas{
   .copyright{
     font-size: 14px;
   }
+}
+
+
+.work img{
+  margin-left: 10%;
+  width: 65%;
+  border-radius: 10px;
+  display: block;
+  transition: transform 0.5s;
+}
+
+.layer{
+  width: 80%;
+  height: 0;
+  background: linear-gradient(rgba(0,0,0,0.6),#ff004f);
+  border-radius: 10px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 40px;
+  text-align: center;
+  font-size: 14px;
+  transition: height 0.5s;
 }
