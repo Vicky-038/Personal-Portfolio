@@ -58,7 +58,7 @@
               <li><span>Programming</span><br>C++</li>
               <li><span>Frontend</span><br>HTML CSS JavaScript</li>
               <li><span>Backend
-                </span><br>PHP MySQL  </li>
+                </span><br>PHP MySQL SQL </li>
             </ul>
           </div>
           <div class="tab-contents" id="experience">
@@ -149,15 +149,17 @@
             <a href="https://www.linkedin.com/in/vickykumar9931" target="_blank"><i class="fa-brands fa-linkedin"></i>  Linkedin</a>
            
           </div>
-          <a href="images/VickyKumarResume.pdf"  download class="btn btn2">Download CV</a>
+          <a href="images/VickyKumarResume (1).pdf"  download class="btn btn2">Download CV</a>
         </div>
         <div class="contact-right">
-          <form action="">
-            <input type="text" name="Name" placeholder="Enter your name" required>
-            <input type="email" name="Email" placeholder="Enter your email" required>
-            <textarea name="Message" placeholder="Enter your message"  rows="6"></textarea>
+          <form id="myForm" action="form.php" method="post">
+            <input type="text" name="name" placeholder="Enter your name" required>
+            <input type="email" name="email" placeholder="Enter your email" required>
+            <textarea name="message" placeholder="Enter your message" rows="6"></textarea>
             <button type="submit" class="btn2 btn btn3">Submit</button>
-          </form>
+        </form>
+        <div id="message"></div> <!-- This will hold the success/error message -->
+        
         </div>
       </div>
     </div>
